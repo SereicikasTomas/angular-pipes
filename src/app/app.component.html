@@ -38,7 +38,7 @@
       </div>
       <div class="form__group">
         <label for=""><b>Kilometers</b></label>
-        <p>{{ distance | convert: "km" }}</p>
+        <p>{{ distance | convert: "km" | number: "1.0-2" }}</p>
       </div>
     </div>
   </form>
