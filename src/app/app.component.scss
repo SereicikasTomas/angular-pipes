@@ -1,5 +1,5 @@
 .container {
-  width: 60rem;
+  width: 40rem;
   margin: 20vh auto auto;
 
   h3 {
@@ -19,6 +19,10 @@
       label {
         display: block;
         margin-bottom: 1rem;
+      }
+
+      input {
+        padding: 0.5rem 1rem;
       }
     }
   }

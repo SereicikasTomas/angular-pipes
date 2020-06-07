@@ -21,5 +21,15 @@
         <p>{{ date | date: "MMMM d, y" }}</p>
       </div>
     </div>
+    <div class="form__row">
+      <div class="form__group">
+        <label for="">Payment Amount</label>
+        <input type="number" (input)="onAmountChange($event.target.value)" />
+      </div>
+      <div class="form__group">
+        <label for=""><b>Amount</b></label>
+        <p>{{ amount | currency }}</p>
+      </div>
+    </div>
   </form>
 </div>
