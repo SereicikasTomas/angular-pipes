@@ -1,6 +1,9 @@
 .container {
-  width: 40rem;
+  width: 45rem;
   margin: 20vh auto auto;
+  border-radius: 5px;
+  padding: 4rem;
+  box-shadow: 0rem 1rem 2rem var(--shadow-color);
 
   h3 {
     font-size: 3rem;

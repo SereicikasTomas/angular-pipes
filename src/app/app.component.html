@@ -31,5 +31,15 @@
         <p>{{ amount | currency }}</p>
       </div>
     </div>
+    <div class="form__row">
+      <div class="form__group">
+        <label for="">Miles</label>
+        <input type="number" (input)="onDistanceChange($event.target.value)" />
+      </div>
+      <div class="form__group">
+        <label for=""><b>Kilometers</b></label>
+        <p>{{ distance | convert }}</p>
+      </div>
+    </div>
   </form>
 </div>
