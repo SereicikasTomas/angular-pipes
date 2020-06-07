@@ -1,0 +1,25 @@
+.container {
+  width: 60rem;
+  margin: 20vh auto auto;
+
+  h3 {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+  .form {
+    font-size: 1.5rem;
+    &__row {
+      margin-top: 2rem;
+      display: flex;
+    }
+    &__group {
+      flex: 1;
+
+      label {
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
